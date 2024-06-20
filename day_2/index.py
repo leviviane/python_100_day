@@ -14,12 +14,12 @@ bill = float(input("What is your total bill? $"))
 
 tip = int(input("How much would you like to tip? 10, 12, or 15 "))
 
-people_split = int(input("How many people would you like to split with?"))
+people = int(input("How many people would you like to split with?"))
 
 tip_percent = tip / 100
 total_tip = bill * tip_percent
 total_bill = bill + total_tip
-bill_split = total_bill / people_split
+bill_split = total_bill / people
 final_amt = (round(bill_split, 2))
 
 print(f"Each person should pay ${final_amt}")
