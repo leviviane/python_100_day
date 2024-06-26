@@ -10,5 +10,3 @@ random_float = random.random() # gives decimal numbers
 print(random_float)
 
 random_float * 5 # this will give num 0-1 not including 5
-
-b
